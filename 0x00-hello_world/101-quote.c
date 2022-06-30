@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-
 /**
  *
  *  * main - Entry point
@@ -15,11 +13,13 @@
 
 
 int main(void)
-	
+
 {
 
-printf("with proper grammar, but the outcome is a piece of art,\n");
+	fprintf(stderr, "and that piece of art is useful\" \
 
-return (0);
+			- Dora Korpar, 2015-10-19\n");
+
+	return (1);
 
 }
